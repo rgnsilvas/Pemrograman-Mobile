@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F5EFE6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="\n✦ ꩜ About Me ꩜ ✦"
+            android:textSize="24sp"
+            android:textColor="#6B4F4F"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:src="@drawable/foto_aku"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:text="Hello, I'm Regina Silva Maharatini ── ★ !! "
+            android:textColor="#4E342E"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Age: 19 years old\nBirthday: 14-05-2005\nHobby: Singing, sleeping, watching movies, etc."
+            android:textColor="#4E342E"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\nMy Current Favorite Songs 🎧 🎸 ♫⋆｡♪ ₊˚♬ ﾟ:\n\n1️⃣ You're here that's the thing by Beabadoobee 😆\n2️⃣ Sugarplum Elegy by NIKI 🪻 \n3️⃣ Fade Into You by Mazzy Star 🌟"
+            android:textColor="#4E342E"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="📞 Contact me: 082153019744\n"
+            android:textColor="#4E342E"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="👈 Back"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6B4F4F"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
